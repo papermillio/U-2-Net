@@ -1,8 +1,7 @@
 from torch import nn
 from huggingface_hub import PyTorchModelHubMixin
 
-from src.models.u2net import U2NET as U2NETBase
-from src.models.u2net import U2NETP as U2NETPBase
+from .models.u2net import U2NET as U2NETBase
 
 
 class U2NET(nn.Module, PyTorchModelHubMixin):

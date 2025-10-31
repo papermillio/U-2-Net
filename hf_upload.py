@@ -1,7 +1,5 @@
 import os
 
-from torch import nn
-from huggingface_hub import PyTorchModelHubMixin
 from dotenv import load_dotenv
 
 from src.u2net import U2NET
