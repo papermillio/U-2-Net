@@ -1,0 +1,7 @@
+.venv/
+.idea/
+U2NET/
+checkpoints/
+.env
+
+**/__pycache__/
