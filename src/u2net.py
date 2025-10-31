@@ -11,4 +11,4 @@ class U2NET(nn.Module, PyTorchModelHubMixin):
         self.model = U2NETBase(in_ch, out_ch)
 
     def forward(self, x):
-        self.model(x)
+        return self.model(x)
